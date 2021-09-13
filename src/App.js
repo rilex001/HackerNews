@@ -1,10 +1,13 @@
 import './App.css';
-import News  from './components/News';
+import { Header } from './components/Header';
+import { News } from './components/News';
+
 
 function App() {
   return (
     <div className="App">
-      <News />
+      <Header />
+      {/* <News></News> */}
     </div>
   );
 }

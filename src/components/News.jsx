@@ -1,22 +1,18 @@
-import React, {useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
+import { New } from './New'
+import { getStories } from '../services/api'
 
-
-export default  function News() {
-
+export const News = () => {
+    const [storyIds, setStoryIds] = useState([]);
+  
     useEffect(() => {
-        fetch("https://hacker-news.firebaseio.com/v0/item/28437914.json?print=pretty")
-            .then(result => result.json())
-            .then(res => console.log(res))
-        return () => {
-            
-        }
-    }, [])
+      getStories().then((ids) => setStoryIds(ids));
+    }, []);
 
-    return (
-        <div>Jebi se </div>
-    )
-
+    
+  
+    return storyIds
+      .slice(0, 100)
+      .map((storyId, i) => <New key={i} storyId={storyId} />);
 }
-
-
 // https://github.com/HackerNews/API
