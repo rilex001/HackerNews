@@ -1,14 +1,16 @@
-import './App.css';
 import { Header } from './components/Header';
 import { News } from './components/News';
+import { GlobalStyle } from './components/Wrapper';
 
 
 function App() {
   return (
-    <div className="App">
+    // <GlobalStyle>
+      <div>
       <Header />
       {/* <News></News> */}
-    </div>
+      </div>
+    // </GlobalStyle>
   );
 }
 

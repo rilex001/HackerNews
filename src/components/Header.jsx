@@ -1,5 +1,5 @@
 import React from 'react'
-import Wrapper from './Wrapper'
+import { SocialNetwork } from './Wrapper'
 
 import fb from '../img/fb.png'
 import ig from '../img/ig.png'
@@ -8,7 +8,8 @@ import yt from '../img/yt.png'
 
 export const Header = () => {
     return (
-        <Wrapper>
+        <>
+            <SocialNetwork>
         <div>
             <p>Follow us</p>
             <img src={fb}/>
@@ -16,10 +17,11 @@ export const Header = () => {
             <img src={tw}/>
             <img src={yt}/>
         </div>
+        </SocialNetwork>
         <div>
             <p>The Hacker News </p>
             <button>Substribe to Newsletter</button>
         </div>
-        </Wrapper>
+        </>
     )
 }
