@@ -1,16 +1,11 @@
-import { Header } from './components/Header';
-import { News } from './components/News';
-import { GlobalStyle } from './components/Wrapper';
-
-
+import { Header } from './components/Header/Header'
+import "./app.scss"
 function App() {
   return (
-    // <GlobalStyle>
       <div>
       <Header />
       {/* <News></News> */}
       </div>
-    // </GlobalStyle>
   );
 }
 

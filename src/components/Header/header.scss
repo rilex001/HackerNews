@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    text-align: center;
+    background-color: #0000ff;
+}
+
+.content {
+    text-align: center;
+    width: 85%;
+}
+
+.social{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20px;
+    width: 85%;
+    text-align: center;
+}
+
+img {
+    padding: 2px;
+}
+
+span {
+    align-items: center;
+    margin-right: 14px;
+}
+
+.title {
+    background-color: #0080ff		;
+}
