@@ -10,11 +10,7 @@
 }
 
 .social{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 20px;
-    width: 85%;
-    text-align: center;
+    display: grid;
 }
 
 img {
@@ -27,5 +23,15 @@ span {
 }
 
 .title {
-    background-color: #0080ff		;
+    background-color: #0080ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptitle {
+    font-size: 25px;
+    color: white;
+    padding: 20px 60px;
 }

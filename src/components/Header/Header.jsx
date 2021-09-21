@@ -17,10 +17,8 @@ export const Header = () => {
             <span className="follow">Follow us</span>
         </div>
         <div className="title">
-            <div className="content">
-            <p>The Hacker News </p>
+            <p className="ptitle">The Hacker News </p>
             <button>Substribe to Newsletter</button>
-            </div>
         </div>
         </div>
     )
