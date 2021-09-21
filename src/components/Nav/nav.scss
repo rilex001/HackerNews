@@ -1,0 +1,18 @@
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, fr);
+}
+
+ul{ 
+    grid-column: 2/12;
+    grid-column-gap: 50px;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}

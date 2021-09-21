@@ -2,36 +2,58 @@
     width: 100%;
     text-align: center;
     background-color: #0000ff;
-}
-
-.content {
-    text-align: center;
-    width: 85%;
+    padding: 0;
+    margin: 0;
 }
 
 .social{
     display: grid;
+    grid-template-columns:  repeat(12, 1fr);
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-img {
+ul {
+    grid-column: 10/12;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    color: #fff;
     padding: 2px;
 }
 
-span {
-    align-items: center;
-    margin-right: 14px;
+img {
+    max-height: 20px;
 }
+
 
 .title {
     background-color: #0080ff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns:  repeat(12, 1fr);
     align-items: center;
+    margin: 0;
+    width: 100%;
 }
 
 .ptitle {
     font-size: 25px;
     color: white;
-    padding: 20px 60px;
+    padding: 10px 20px;
+    grid-column: 2/6;
+}
+
+
+.subscribe {
+    grid-column: 10/12;
+}
+
+.subscribeButton {
+    background-color: yellow;
+    padding: 10px 80px;
 }

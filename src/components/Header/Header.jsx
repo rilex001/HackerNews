@@ -10,15 +10,19 @@ export const Header = () => {
         <div className='container'>
         
         <div className='social'>
-            <img src={fb}/>
-            <img src={ig}/>
-            <img src={tw}/>
-            <img src={yt}/>
-            <span className="follow">Follow us</span>
+            <ul>
+                <li>Follow us</li>
+                <li><img src={fb}/></li>
+                <li><img src={ig}/></li>
+                <li><img src={tw}/></li>
+                <li><img src={yt}/></li>
+            </ul>            
         </div>
         <div className="title">
             <p className="ptitle">The Hacker News </p>
-            <button>Substribe to Newsletter</button>
+            <div className="subscribe">
+            <button className="subscribeButton">Subsctribe to Newsletter</button>
+            </div>
         </div>
         </div>
     )
