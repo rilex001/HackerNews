@@ -1,11 +1,13 @@
-import { Header } from './components/Header/Header'
 import "./app.scss"
-import { Navigation } from './components/Nav/Navigation';
+import { NavBar } from "./components/Header/NavBar";
+import { SocialMedia } from "./components/Header/SocialMedia";
+import { Title } from "./components/Header/Title";
 function App() {
   return (
       <div className='view'>
-      <Header />
-      <Navigation />
+      <SocialMedia />
+      <Title />
+      <NavBar />
       {/* <News></News> */}
       </div>
   );
