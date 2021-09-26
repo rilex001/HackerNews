@@ -18,11 +18,13 @@ export const Header = () => {
                 <li><img src={yt}/></li>
             </ul>            
         </div>
+        <div className='titleContainer'>
         <div className="title">
             <p className="ptitle">The Hacker News </p>
             <div className="subscribe">
             <button className="subscribeButton">Subsctribe to Newsletter</button>
             </div>
+        </div>
         </div>
         </div>
     )
