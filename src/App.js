@@ -1,4 +1,5 @@
 import "./app.scss"
+import { News } from "./components/Content/News";
 import { NavBar } from "./components/Header/NavBar";
 import { SocialMedia } from "./components/Header/SocialMedia";
 import { Title } from "./components/Header/Title";
@@ -8,6 +9,7 @@ function App() {
       <SocialMedia />
       <Title />
       <NavBar />
+      <News />
       {/* <News></News> */}
       </div>
   );
