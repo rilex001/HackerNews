@@ -5,7 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarWeek } from '@fortawesome/free-solid-svg-icons'
 import { faNewspaper } from '@fortawesome/free-solid-svg-icons'
 import image from "../../img/image.jpg"
-import { PopulatNew } from './PopuarNew'
+import { PopulatNew } from './PopularNew'
+import "./container.scss"
+
 
 export const New = ({ storyId }) => {
     
@@ -26,8 +28,7 @@ export const New = ({ storyId }) => {
         
    
 
-        <div className="container">
-            <div className="news">
+          <>
                 <div className="new">
                     <img src={image} />        
                     <div className="info">            
@@ -44,16 +45,11 @@ export const New = ({ storyId }) => {
                     </div>
                     </div>
                 </div>
-            </div>
 
 
 
 
-            <div className="popular">        
-              <PopulatNew />
-            </div>
-
-        </div>
+        </>
     )
 
 }

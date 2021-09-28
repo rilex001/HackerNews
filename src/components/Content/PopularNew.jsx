@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import image from "../../img/image.jpg"
 import { getStory } from '../../services/api'
+import "./container.scss"
 
-export const PopulatNew = ({ storyId }) => {
+export const PopularNew = ({ storyId }) => {
 
     const [story, setStory] = useState({})
 
@@ -17,9 +18,11 @@ export const PopulatNew = ({ storyId }) => {
 
     return (
         <>
-            <div className="content">
-                <img src={image} />
-                <div>story.title</div>
+            <div className="popularNews">
+                <img src={image} className="popularImg" />
+                <div className="margin-left">                    
+                  <a href={story.url} target="_blank">{story.title}</a>
+                </div>
             </div>
         </>
     )

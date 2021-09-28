@@ -16,6 +16,7 @@
 .new {
     display: grid;
     grid-template-columns: repetat(3, 1fr);
+    margin-top: 25px;
 }
 
 .news img {
@@ -55,12 +56,38 @@
 }
 
 .popular {
-    grid-column: 7/8;
-    display: flex;
+    grid-column: 6/8;
 }
 
-.content img {
+.popularImg {
     height: 50px;
     width: 35px;
     width: auto;
+}
+
+.popularTitle {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+.popularNews {
+    margin-top: 10px;
+    display: flex;
+}
+
+.margin-left a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    width: 200px;
+    height: auto;  
+    align-items: center; 
+}
+
+.margin-left a:hover {
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+    width: 200px;
+    height: auto;   
 }

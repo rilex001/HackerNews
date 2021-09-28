@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { getStories } from '../../services/api'
-import { PopularNew } from './New'
+import { PopularNew } from './PopularNew'
 
 import "./container.scss"
 
-export const News = () => {
+export const PopularNews = () => {
 
     const [storyIds, setStoryIds] = useState([]);
 
