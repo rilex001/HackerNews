@@ -2,15 +2,15 @@
     background-color: rgb(111, 111, 219);
     border: 2px blue;
     height: 300px;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 
 .signUpContainerContent {
     font-size: 17px;
     color: white;
-    margin: 0 auto;
-    text-align: center;
+    margin: 30px auto;
 }
 
 .signUpContainer p {
