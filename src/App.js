@@ -1,6 +1,7 @@
 import "./app.scss"
 import { Content } from "./components/Content/Content";
 import { Courses } from "./components/Courses/Courses";
+import { Footer } from "./components/Footer.jsx/Footer";
 import { NavBar } from "./components/Header/NavBar";
 import { SocialMedia } from "./components/Header/SocialMedia";
 import { Title } from "./components/Header/Title";
@@ -14,6 +15,7 @@ function App() {
       <Content />
       <Courses />
       <SignUp />
+      <Footer />
       </div>
   );
 }
