@@ -24,3 +24,17 @@
 .course img {
     width: 100%;
 }
+
+@media screen and (max-width: 992px) {
+    
+    .courseContainer {
+        margin:  auto 10px;
+        overflow: auto;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+}

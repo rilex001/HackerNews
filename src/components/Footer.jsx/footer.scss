@@ -48,3 +48,29 @@
     padding: 3px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 992px) {
+
+    .linkButton {
+        width: 160px;
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .socialFooter {
+        margin: 0 30px;
+    }
+    
+    .followersNumber {
+        display: none;
+    }
+
+    .linkButton {
+        width: 100px;
+    }
+
+}

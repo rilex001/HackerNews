@@ -63,3 +63,43 @@
 hr {
     border-top: 6px solid rgb(212, 212, 212);
 }
+
+
+
+@media screen and (max-width: 992px) {
+    
+    .name {
+        font-size: 30px;
+        padding: 20px;
+    }
+    
+    .content button {
+        margin: auto 20px;     
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .socialContainer {
+        display: none;     
+    }
+
+    .name {
+        font-size: 30px;
+        padding: 20px;
+    }
+    
+    .content button {
+        display: none;     
+    }
+
+    .navbar li:nth-last-child(n + 3) {
+        display: none;
+    }
+
+    .navigation {
+        margin-right: 20px;
+    }
+
+  }

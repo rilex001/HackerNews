@@ -40,7 +40,7 @@ export const New = ({ storyId }) => {
                       </div>
                       <div className="flex margin-left">
                         <FontAwesomeIcon icon={faNewspaper} />
-                        <p className="margin-left">{mapTime(story.time)}</p>
+                        <p className="margin-left">{mapTime(story.time)} ago</p>
                       </div>
                     </div>
                     </div>

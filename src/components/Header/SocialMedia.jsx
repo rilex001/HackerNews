@@ -11,10 +11,10 @@ export const SocialMedia = () => {
             <div className="socialContainer">
                 <ul className="socialNetwork">
                 <li><p>Follow us</p></li>
-                <li><FontAwesomeIcon icon={faYoutube} /> </li>
-                <li><FontAwesomeIcon icon={faFacebook} /></li>
-                <li><FontAwesomeIcon icon={faTwitter} /></li>
-                <li><FontAwesomeIcon icon={faLinkedin} /></li>
+                <li><a href=""><FontAwesomeIcon icon={faYoutube} /> </a> </li>
+                <li><a href=""><FontAwesomeIcon icon={faFacebook} /> </a></li>
+                <li><a href=""><FontAwesomeIcon icon={faTwitter} /> </a></li>
+                <li><a href=""><FontAwesomeIcon icon={faLinkedin} /> </a></li>
                 </ul>
             </div>       
         </>
