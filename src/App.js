@@ -8,7 +8,7 @@ import { Title } from "./components/Header/Title";
 import { SignUp } from "./components/SignUp/SignUp";
 function App() {
   return (
-      <div className='view'>
+      <div>
       <SocialMedia />
       <Title />
       <NavBar />
